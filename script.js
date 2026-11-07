@@ -101,7 +101,9 @@ function displayGifts(giftList) {
                 <p>${gift.description}</p>
 
                 <div class="gift-price">
-                    €${gift.price.toFixed(2)}
+                    ${gift.price != null
+                        ? `€${Number(gift.price).toFixed(2)}`
+                        : "Price not specified"}
                 </div>
 
                 <a href="${gift.link}"
