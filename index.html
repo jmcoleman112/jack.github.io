@@ -1,1 +1,54 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Gift Guide</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>My Gift Guide</h1>
+        <p>A collection of gift ideas and recommendations</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <button class="filter-btn active" data-category="All">All</button>
+        <button class="filter-btn" data-category="Tech">Tech</button>
+        <button class="filter-btn" data-category="Clothing">Clothing</button>
+        <button class="filter-btn" data-category="Experiences">Experiences</button>
+        <button class="filter-btn" data-category="Misc">Miscellaneous</button>
+    </nav>
+
+    <!-- Search -->
+    <section class="search-section">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search gift ideas..."
+        >
+    </section>
+
+    <!-- Gift Listings -->
+    <main class="container">
+        <div class="gift-grid" id="giftGrid">
+            <!-- JavaScript dynamically adds gifts here -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>My Personal Gift Guide</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
