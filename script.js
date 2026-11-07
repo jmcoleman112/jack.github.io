@@ -2,17 +2,40 @@
 /* =================================
    GIFT DATABASE
 ================================= */
-
+import { createGiftCard } from "./modules/giftCard.js";
 const gifts = [
 
-    {
-        name: "Wireless Headphones",
-        category: "Tech",
-        description: "Premium noise cancelling headphones.",
-        price: 199.99,
-        image: "https://placehold.co/400x300?text=Headphones",
-        link: "https://example.com"
-    },
+
+{
+    id: 1,
+    name: "Insta360 Ace Pro 2",
+    brand: "Insta360",
+    category: "Tech",
+    subcategory: "Action Cameras",
+
+    description: "A premium action camera designed for capturing adventures, travel and high-quality video.",
+
+    price: null,
+    currency: "EUR",
+
+    image: "images/insta360-ace-pro-2.jpg",
+
+    link: "https://www.insta360.com/product/insta360-ace-pro2",
+
+    features: [
+        "8K video recording at 30fps",
+        "4K video at up to 120fps",
+        "50MP photography",
+        "Leica-engineered lens",
+        "Waterproof to 12 metres",
+        "FlowState image stabilisation",
+        "2.5-inch flip touchscreen"
+    ],
+
+    recommendation: "Great for travel, outdoor adventures, sports and content creation.",
+
+    rating: 5
+},
 
     {
         name: "Running Jacket",
