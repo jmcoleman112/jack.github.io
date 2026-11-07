@@ -2,7 +2,7 @@
 /* =================================
    GIFT DATABASE
 ================================= */
-import { createGiftCard } from "./modules/giftCard.js";
+import { createGiftCard } from "./modules/giftcard.js";
 const gifts = [
 
 
