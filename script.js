@@ -15,7 +15,7 @@ const gifts = [
 
     description: "A premium action camera designed for capturing adventures, travel and high-quality video.",
 
-    price: null,
+    price: 350,
     currency: "EUR",
 
     image: "images/insta360-ace-pro-2.jpg",
@@ -38,32 +38,27 @@ const gifts = [
 },
 
     {
-        name: "Running Jacket",
-        category: "Clothing",
-        description: "Lightweight jacket for everyday running.",
-        price: 75,
-        image: "https://placehold.co/400x300?text=Jacket",
-        link: "https://example.com"
-    },
-
-    {
-        name: "Weekend Getaway",
-        category: "Experiences",
-        description: "A weekend away somewhere interesting.",
-        price: 150,
-        image: "https://placehold.co/400x300?text=Getaway",
-        link: "https://example.com"
-    },
-
-    {
-        name: "Coffee Machine",
-        category: "Misc",
-        description: "A compact coffee machine for home.",
-        price: 120,
-        image: "https://placehold.co/400x300?text=Coffee",
-        link: "https://example.com"
-    }
-
+    id: "pirate-gold-300pc",
+    name: "Pirate Gold 300pc Metal Coin Set",
+    category: "Poker",
+    price: 220,
+    currency: "USD",
+    description: "A 300-piece set of weighty metal poker coins in gold, silver, copper and gunmetal. A seriously cool upgrade for home poker games.",
+    image: "images/piratepoker.jpg",
+    link: "https://pirategoldpoker.com/products/pirate-gold-300pc-coin-set-coins-only",
+    notes: "Coins only — no wooden case, cards or dealer button. Check Irish shipping availability."
+},
+{
+    id: "puma-suede-classic",
+    name: "Puma Suede Classic",
+    category: "Clothing & Style",
+    price: 89.95,
+    currency: "USD",
+    description: "Classic low-profile Puma trainers in Cayenne Pepper and White, with a suede upper, signature Puma Formstrip and rubber sole.",
+    image: "images/orangeshoe.jpg",
+    link: "https://www.zappos.com/p/mens-puma-suede-classic-shoes-cayenne-pepper-white/product/10087309/color/1153893",
+    notes: "Cayenne Pepper / White colourway. Classic everyday sneaker."
+}
 ];
 
 
